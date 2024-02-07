@@ -1,0 +1,9 @@
+const fs = require('fs')
+//const rimraf = require('rimraf')
+
+console.log("program start")
+console.log("reading from:")
+console.log(process.cwd())
+let cachedVersion;
+
+//fs.readFileSync(cachedVersion+"/")
